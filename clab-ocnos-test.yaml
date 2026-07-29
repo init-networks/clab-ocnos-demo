@@ -7,12 +7,10 @@ topology:
       image: vrnetlab/ipinfusion_ocnos:7.0.0-262
       binds:
         - configs/r1.cfg:/config/startup-config.cfg:ro
-
     r2:
       kind: ipinfusion_ocnos
       image: vrnetlab/ipinfusion_ocnos:7.0.0-262
       binds:
         - configs/r2.cfg:/config/startup-config.cfg:ro
-
   links:
     - endpoints: ["r1:eth1", "r2:eth1"]
