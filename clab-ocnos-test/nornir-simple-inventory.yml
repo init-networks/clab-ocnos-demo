@@ -3,12 +3,32 @@ r1:
     username: admin
     password: admin@123
     platform: ipinfusion_ocnos
-    hostname: 172.20.20.3
+    hostname: 172.20.20.6
 r2:
     username: admin
     password: admin@123
     platform: ipinfusion_ocnos
+    hostname: 172.20.20.5
+r4:
+    username: admin
+    password: admin@123
+    platform: ipinfusion_ocnos
+    hostname: 172.20.20.8
+r5:
+    username: admin
+    password: admin@123
+    platform: ipinfusion_ocnos
+    hostname: 172.20.20.3
+pc1:
+    username: 
+    password: 
+    platform: linux
     hostname: 172.20.20.2
+pc2:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.7
 r3:
     username: admin
     password: admin
