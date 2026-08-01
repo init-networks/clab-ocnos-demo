@@ -3,22 +3,22 @@ r1:
     username: admin
     password: admin@123
     platform: ipinfusion_ocnos
-    hostname: 172.20.20.6
+    hostname: 172.20.20.5
 r2:
     username: admin
     password: admin@123
     platform: ipinfusion_ocnos
-    hostname: 172.20.20.5
+    hostname: 172.20.20.3
 r4:
     username: admin
     password: admin@123
     platform: ipinfusion_ocnos
-    hostname: 172.20.20.8
+    hostname: 172.20.20.6
 r5:
     username: admin
     password: admin@123
     platform: ipinfusion_ocnos
-    hostname: 172.20.20.3
+    hostname: 172.20.20.8
 pc1:
     username: 
     password: 
@@ -28,9 +28,9 @@ pc2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.7
+    hostname: 172.20.20.4
 r3:
     username: admin
     password: admin
     platform: mikrotik_ros
-    hostname: 172.20.20.4
+    hostname: 172.20.20.7
