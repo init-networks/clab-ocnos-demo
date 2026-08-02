@@ -17,6 +17,6 @@
 /routing ospf interface-template add area=area0 auth=md5 auth-id=1 auth-key=labocnos interfaces=ether3 type=ptp
 /routing ospf interface-template add area=area0 interfaces=lo passive
 /routing bgp instance add as=65000 name=bgp65000
-/routing bgp connection add afi=l2vpn-cisco,vpnv4 instance=bgp65000 local.address=3.3.3.3 .role=ibgp name=R2 remote.address=2.2.2.2
+/routing bgp connection add afi=vpnv4 instance=bgp65000 local.address=3.3.3.3 .role=ibgp name=R2 remote.address=2.2.2.2
 /routing bgp vpn add export.redistribute=connected .route-targets=65000:1 import.route-targets=65000:1 instance=bgp65000 label-allocation-policy=per-vrf name=CUST_A route-distinguisher=65000:1 vrf=CUST_A
 /routing bgp vpls add bridge=BR-VPLS-CUS_B bridge-cost=1 bridge-horizon=1 cisco-id=3.3.3.3&65000:101 export-route-targets=65000:101 import-route-targets=65000:101 name=VPLS-CUS_B pw-control-word=disabled pw-l2mtu=1500 rd=65000:101
