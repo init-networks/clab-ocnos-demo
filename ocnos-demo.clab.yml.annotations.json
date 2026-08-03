@@ -34,8 +34,8 @@
       "id": "freeText_1785553004500-1",
       "text": "lo: 1.1.1.1/32",
       "position": {
-        "x": 283.2188631476942,
-        "y": 83.34429894638144
+        "x": 246.3156373412425,
+        "y": 86.1830086238008
       },
       "fontSize": 12,
       "fontColor": "#bbbebf",
@@ -49,7 +49,7 @@
       "id": "freeText_1785553004500-1-1",
       "text": "lo: 4.4.4.4/32",
       "position": {
-        "x": 456.9930065524356,
+        "x": 485.3801033266291,
         "y": 84.69135808693969
       },
       "fontSize": 12,
@@ -64,8 +64,8 @@
       "id": "freeText_1785553004500-1-1-1",
       "text": "lo: 2.2.2.2/32",
       "position": {
-        "x": 156.67114377493704,
-        "y": 227.8175892612974
+        "x": 160.45609001149617,
+        "y": 222.14016990645868
       },
       "fontSize": 12,
       "fontColor": "#bbbebf",
@@ -80,7 +80,7 @@
       "text": "lo: 5.5.5.5/32",
       "position": {
         "x": 364.05654907147925,
-        "y": 282.9463167944513
+        "y": 262.12911249337606
       },
       "fontSize": 12,
       "fontColor": "#bbbebf",
@@ -199,8 +199,8 @@
       "id": "freeText_1785553697215-1-1-1-4",
       "text": "10.0.0.7/31",
       "position": {
-        "x": 420.40958259097005,
-        "y": 240.21283883776078
+        "x": 421.3558191501098,
+        "y": 200.4709033538898
       },
       "fontSize": 10,
       "fontColor": "#bbbebf",
@@ -214,8 +214,8 @@
       "id": "freeText_1785553697215-1-1-1-5",
       "text": "10.0.0.8/31",
       "position": {
-        "x": 325.3156180780227,
-        "y": 239.99615431068165
+        "x": 322.4769084006033,
+        "y": 222.01765968702568
       },
       "fontSize": 10,
       "fontColor": "#bbbebf",
@@ -299,6 +299,111 @@
       "textDecoration": "none",
       "textAlign": "left",
       "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785758887105",
+      "text": "lo: 100.100.100.100",
+      "position": {
+        "x": 482.42367903798163,
+        "y": 304.1540803455712
+      },
+      "fontSize": 12,
+      "fontColor": "#bbbebf",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785759783349",
+      "text": "172.16.0.2/30",
+      "position": {
+        "x": 420.1144809173606,
+        "y": 240.51028495143976
+      },
+      "fontSize": 10,
+      "fontColor": "#bbbebf",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785759783349-1",
+      "text": "172.16.0.1/30",
+      "position": {
+        "x": 451.4200369442969,
+        "y": 259.63261072308245
+      },
+      "fontSize": 10,
+      "fontColor": "#bbbebf",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785771252888",
+      "text": "10.0.0.10/31",
+      "position": {
+        "x": 299.6989247311825,
+        "y": 70.58064516129065
+      },
+      "fontSize": 10,
+      "fontColor": "#bbbebf",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785771252888-1",
+      "text": "10.0.0.11/31",
+      "position": {
+        "x": 329.1183093924741,
+        "y": 30.194718005112662
+      },
+      "fontSize": 10,
+      "fontColor": "#bbbebf",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785771252888-1-1",
+      "text": "10.0.0.12/31",
+      "position": {
+        "x": 433.96556973662985,
+        "y": 68.06622182510385
+      },
+      "fontSize": 10,
+      "fontColor": "#bbbebf",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785771252888-2",
+      "text": "10.0.0.13/31",
+      "position": {
+        "x": 403.51915764479867,
+        "y": 26.40271054154536
+      },
+      "fontSize": 10,
+      "fontColor": "#bbbebf",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
     }
   ],
   "freeShapeAnnotations": [
@@ -306,11 +411,11 @@
       "id": "freeShape_1785552600409",
       "shapeType": "circle",
       "position": {
-        "x": 196.98607072600402,
-        "y": 123.80337917339202
+        "x": 186.9663336837731,
+        "y": -4.90157320481012
       },
-      "width": 406.2608695652174,
-      "height": 146,
+      "width": 436,
+      "height": 370.31719128329297,
       "fillColor": "#7f7f7f",
       "fillOpacity": 0.2,
       "borderColor": "#bbbebf",
@@ -342,25 +447,28 @@
       "icon": "client"
     },
     {
-      "id": "PE2",
+      "id": "rr-vpls",
       "position": {
         "x": 520,
-        "y": 400
+        "y": 260
+      },
+      "icon": "pe"
+    },
+    {
+      "id": "r6",
+      "position": {
+        "x": 380,
+        "y": -20
       }
     },
     {
-      "id": "P-1",
+      "id": "pc5",
       "position": {
-        "x": 200,
-        "y": 360
-      }
-    },
-    {
-      "id": "PE-2",
-      "position": {
-        "x": 460,
-        "y": 340
-      }
+        "x": 380,
+        "y": -180
+      },
+      "labelPosition": "top",
+      "icon": "pe"
     },
     {
       "id": "PE-3",
@@ -422,7 +530,7 @@
       "id": "r5",
       "position": {
         "x": 380,
-        "y": 240
+        "y": 220
       }
     },
     {
@@ -456,7 +564,17 @@
       "icon": "client"
     }
   ],
-  "edgeAnnotations": [],
+  "edgeAnnotations": [
+    {
+      "id": "Clab-Link12",
+      "source": "r6",
+      "target": "pc5",
+      "sourceEndpoint": "eth3",
+      "targetEndpoint": "eth1",
+      "endpointLabelOffsetEnabled": true,
+      "endpointLabelOffset": 20
+    }
+  ],
   "aliasEndpointAnnotations": [],
   "viewerSettings": {}
 }
