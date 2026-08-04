@@ -30,6 +30,10 @@ topology:
       kind: mikrotik_ros
       image: vrnetlab/mikrotik_routeros:7.23.2
       startup-config: configs/r6.cfg
+    pe7:
+      kind: mikrotik_ros
+      image: vrnetlab/mikrotik_routeros:7.23.2
+      startup-config: configs/r7.cfg
     rr-vpls:
       kind: mikrotik_ros
       image: initnetworks/clab_images:ros-6.49.13
@@ -59,6 +63,11 @@ topology:
       image: initnetworks/clab_images:host
       exec:
         - ip address add dev eth1 192.168.2.5/24
+    pc6:
+      kind: linux
+      image: initnetworks/clab_images:host
+      exec:
+        - ip address add dev eth1 192.168.2.6/24
 
   links:
     - endpoints: [ "p1:eth1", "pe2:eth1" ]
@@ -74,3 +83,5 @@ topology:
     - endpoints: [ "pe2:eth4", "pc3:eth1" ]
     - endpoints: [ "pe3:eth4", "pc4:eth1" ]
     - endpoints: [ "pe6:eth3", "pc5:eth1" ]
+    - endpoints: [ "pe7:eth1", "p5:eth4" ]
+    - endpoints: [ "pe7:eth2", "pc6:eth1" ]
